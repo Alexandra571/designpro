@@ -1,0 +1,149 @@
+* {
+    margin: 0 auto;    
+}
+
+header {
+    font-size: 80px;
+    height: 200px;
+    background-color: #0a0a0a;
+    color: #efe6e7;
+    text-align: center;
+    line-height: 175px;
+}
+
+body {
+    font-size: 45px;
+}
+
+.review-form {
+    padding: 25px;
+}
+
+.rating {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 250px;
+    float: left;
+}
+  
+.rating input {
+    display: none;
+}
+  
+.rating label:hover,
+.rating label:hover ~ label { 
+    color: orange;
+}
+  
+.rating input:checked ~ label {
+    color: orange;
+}
+  
+.comment {
+    margin-bottom: 60px;
+}
+  
+.comment textarea {
+    width: 20%;
+    height: 200px;
+    resize: none;
+    border-color: black;
+    font-size: 30px;
+}
+  
+.submit-btn {
+    background-color: #0a0a0a;
+    color: #ececec;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 35px;
+}
+
+#bees {
+    float: right;
+    border-radius: 60px;
+}
+
+#EP {
+    height: 500px;
+    width: 750px;
+    float: right;
+    position: absolute;
+    right: 200px;
+    border-radius: 40px;
+}
+
+#MIKE {
+    height: 600px;
+    width: 600px;
+    float: right;
+    position: absolute;
+    right: 200px;
+    border-radius: 40px;
+}
+
+#MAD {
+    position: absolute;
+    float: right;
+    right: 200px;
+    height: 600px;
+    width: 600px; 
+    border-radius: 40px;  
+}
+
+#ELTON {
+    position: absolute;
+    float: right;
+    right: 200px;
+    height: 550px;
+    width: 550px;  
+    border-radius: 40px;
+}
+
+#LED {
+    position: absolute;
+    float: right;
+    right: 200px;
+    height: 600px;
+    width: 600px;  
+    border-radius: 40px;
+}
+
+#FLOYD {
+    position: absolute;
+    float: right;
+    right: 200px;
+    height: 600px;
+    width: 600px;  
+    border-radius: 40px;
+}
+
+#TIME {
+    position: absolute;
+    float: right;
+    right: 200px;
+    height: 600px;
+    width: 600px;  
+    border-radius: 40px;
+}
+
+#DION {
+    position: absolute;
+    float: right;
+    right: 200px;
+    height: 600px;
+    width: 600px;  
+    border-radius: 40px;
+}
+
+.info {
+    padding: 25px;
+}
+
+.lorem {
+    width: 1200px;
+    float: left;
+}
